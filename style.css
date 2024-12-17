@@ -1,0 +1,387 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* NAVBAR START */
+
+.list ul{
+    
+    list-style: none;
+}
+.list ul li{
+    float: left;
+    padding-left: 20px;
+    
+}
+.list ul li:hover{
+    color: rgb(60, 224, 208);
+    border-bottom: 1px solid rgb(60, 224, 208) ;
+}
+
+.code
+{
+    margin-left: 12rem !important;
+}
+.block i{
+    color: rgb(15, 174, 174);
+}
+.block h4{
+    color: rgb(58, 57, 57);
+}
+.block p{
+    color: rgb(93, 91, 91);
+}
+/* NAVBAR END */
+
+/* ABOUT START */
+
+.about h4{
+    color: rgb(113, 109, 109);
+    font-size: 44px;
+    font-weight: 100;
+}
+.position{
+    position: relative;
+}
+.about-portrait{
+    left: 70px;
+    top:50px ;
+    position: absolute;
+}
+.about-txt h4{
+    color: gray;
+}
+.about-txt ul{
+   
+    justify-content: space-between;
+    color: rgb(132, 201, 201);
+    list-style: none;
+}
+.about-txt h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+.about-txt i{
+    color: aqua;
+    font-size: 20px;
+}
+.about-txt p{
+    color: gray;
+}
+.client img{
+    width: 120px;
+    margin-top: 100px;  
+     margin-left: 50px;
+}
+/* ABOUT END */
+
+/* SECTION - 2 START */
+
+    .card{
+        background-color: rgba(212, 209, 209, 0.89) !important;
+    }
+    .card h1{
+        color: rgb(56, 70, 85);
+    }
+    .card p{
+        color: gray;
+    }
+    .card button{
+        background-color: rgb(35, 213, 213);
+    }
+/* SECTION - 2 END */
+
+/* SECTION - 3 START */
+
+    .contant{
+        background-image: url("./img/onfocus-content-bg.jpg");
+    }
+    .contant h5{
+        font-size: 14px;
+    }
+    .contant h5 i{
+        color: aqua;
+        font-size: 20px;
+    }
+    .contant button {
+        background-color:rgb(35, 213, 213);
+    }
+    
+    .mini i{
+        font-size: 30px;
+        color: aqua;
+    }
+    .moto :hover{
+        color: azure;
+        background-color: aqua;
+    }
+    .X i{
+        color: aqua;
+        
+    }
+
+/* SECTION - 3 END */
+
+/* OUR SERVICES START */
+
+.Services{
+    font-size: 44px;
+    font-weight: 200;
+    color: gray;
+}
+.cards1 img{
+    width: 350px;
+border-radius: 10%;
+}
+.cards2 img{
+    margin-top: 100px;
+    width: 350px;
+border-radius: 10%;
+   
+}
+.icon {
+    position: relative;
+}
+.icon2{
+    position: relative;
+}
+.detail { 
+    left: 40px;
+    top: 164px;
+    position: absolute;
+}
+.detail1 { 
+    left: 40px;
+    top: 264px;
+    position: absolute;
+}
+
+
+/* OUR SERVICES END */
+
+/*TESTIMONIALS START  */
+
+    .backgroundimage{
+        color: aliceblue;
+        margin-top: 120px;
+        background-image: url('./img/testimonials-bg.jpg');
+    }
+    .backgroundimage img{
+        width: 75px;
+        border: 2px solid rgb(172, 167, 167);
+    }
+    .backgroundimage i{
+        color: rgb(228, 228, 11);
+    }
+     .dot i{
+        font-size: 40px !important;
+        color: rgb(204, 228, 249);
+    }
+
+/* TESTIMONIALS END */
+
+/* OUR PRICING START */
+    .card-img{
+        background-image: url(./img/pricing-bg.jpg);
+       
+        color: #fff;
+    }
+    .card-text i{
+        font-size: 20px;
+        color: rgb(27, 147, 147);
+    }
+    button:hover{
+        background-color: black;
+        color: #fff;
+    }
+
+
+/* OUR PRICING END */
+
+
+/* PORTFOLIO START */
+
+    .Portfolio ul{
+        list-style: none;
+      margin-left: 440px;       
+        
+    }
+    .Portfolio li {
+        padding-left: 10px;
+    }
+
+    .Portfolio li:hover{
+        color: aqua;
+    }
+    
+
+/* PORTFOLIO END */
+
+
+/* OUR TEAM START */
+
+.icon {
+    position: relative;
+}
+.detail { 
+    left: 40px;
+    top: 300px;
+    position: absolute;
+}
+
+/* OUR TEAM END */
+
+/* CONTACT START */
+
+    .Location i{
+        font-size: 30px;
+    }
+    .Location1 h6{
+        color: gray;
+        font-size: 12px;
+    }
+   
+/* CONTACT END */
+
+
+/* FOOTER START */
+
+.footer {
+    
+    color: #fff;
+    background-color: rgb(26, 26, 36);
+    font-size: 14px;
+    position: relative;
+  }
+  .footer ul{
+    list-style: none;
+
+  }
+  .footer a{
+    text-decoration: none;
+  }
+  
+  .footer .footer-top {
+    background-color: color-mix(in srgb, var(--background-color), white 5%);
+    padding-top: 50px;
+  }
+  
+  .footer .footer-about .logo {
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+  
+  .footer .footer-about .logo img {
+    max-height: 40px;
+    margin-right: 6px;
+  }
+  
+  .footer .footer-about .logo span {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  .footer .footer-about p {
+    font-size: 14px;
+    font-family: var(--heading-font);
+  }
+  
+  .footer h4 {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .footer h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--accent-color);
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  .footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer .footer-links ul i {
+    padding-right: 2px;
+    font-size: 12px;
+    line-height: 0;
+  }
+  
+  .footer .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  .footer .footer-links ul a {
+    color: color-mix(in srgb, var(--default-color), transparent 30%);
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  .footer .footer-links ul a:hover {
+    color: var(--accent-color);
+  }
+  
+  .footer .footer-contact p {
+    margin-bottom: 5px;
+  }
+  
+  .footer .copyright {
+    padding: 30px 0;
+  }
+  
+  .footer .copyright p {
+    margin-bottom: 0;
+  }
+  
+  .footer .credits {
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  
+  .footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: color-mix(in srgb, var(--default-color), transparent 90%);
+    color: var(--contrast-color);
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  .footer .social-links a:hover {
+    background: var(--accent-color);
+    text-decoration: none;
+  }
+
+  /* FOOTER END */
